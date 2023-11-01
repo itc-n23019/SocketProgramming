@@ -1,12 +1,8 @@
 def main():
     h = int(input())
 
-    if h > 8:
-        print("60 min")
-    elif h > 6:
-        print("45 min")
-    else:
-        print("no break")
+    result = "60 min" if h > 8 else "45 min" if h > 6 else "no break"
+    print(result)
 
 if __name__ == "__main__":
     main()
