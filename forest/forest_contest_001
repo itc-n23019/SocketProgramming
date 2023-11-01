@@ -1,0 +1,8 @@
+def main():
+    s = input()
+
+    result = 9 if s == "baseball" else 11 if s == "soccer" else 15 if s == "rugby" else 5 if s == "basketball" else 6
+    print(result)
+
+if __name__ == "__main__":
+    main()
